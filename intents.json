@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! I'm your investment guide. How can I help you today?",
+        "Hello! Welcome to your investment advisor. What would you like to explore?"
+      ]
+    },
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later! Remember, I'm here to help you with your investment journey anytime.",
+        "Have a nice day! Feel free to reach out whenever you have investment questions."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help! I'm here for all your investment needs.", "My pleasure! Let me know if you have any other questions."]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "I'm looking for investment options",
+        "What kind of investments do you offer?",
+        "Can you suggest some investments for me?"
+      ],
+      "responses": [
+        "Sure! would you prefer a safe investment with lower potential returns, or a riskier investment with higher potential returns?",
+        "Sure! there is 2 types of investmenrs:safe and a risky one.What is your choice "
+      ]
+    },
+    {
+      "tag": "safe_investment",
+      "patterns": [
+        "I'm interested in safe investments",
+        "I prefer a lower-risk investment",
+        "safe_investment",
+        "safe one please",
+        "safe "
+      ],
+      "responses": [
+        "Real estate can be a stable and secure investment option. Would you like to learn more about it?",
+        "Great choice! the safer the better ,let me tell you more about Real Estate secret formula: Location + appreciation + income = investment dreams. Do you need more a plan to start ?"
+      ]
+    },
+    
+    
+    {
+      "tag": "real_estate_info",
+      "patterns": [
+        "Tell me more about real estate investments",
+        "How does real estate investing work?",
+        "What are the benefits of real estate?",
+        "yes,I do"
+      ],
+      "responses": ["Stable asset: Real estate holds its value well, offering long-term security,but you may need an investment plan",
+      "Passive income: Rental properties generate consistent income through tenants,but you may need an investment plan",
+      "Capital appreciation: Property values can increase over time, leading to significant gains,but you may need an investment plan",
+      "Tax benefits: Mortgage interest and property taxes often offer tax deductions,but you may need an investment plan"
+      ]
+    },
+    {
+      "tag": "investment_saudi_arabia",
+      "patterns": [
+        "Can you help me with an investment plan?",
+        "Do you have an investment plan ?",
+        "Do you have any suggestion on how and where to start?",
+        "Give me a business plan "
+      ],
+      "responses": ["Dude, picture this: Saudi Arabia's on fire! Vision 2030 is like steroids for the economy, people are pouring in, and the government's throwing parties for investors (seriously, sweet tax breaks and stuff). You grab a slick apartment in Riyadh, rent's rolling in every month, and boom, your property value takes off - up to 10% a year, say the wizards. Sure, check with a local expert before you jump in, but if you're down for a rock-solid investment with epic growth, Saudi real estate might just be your golden ticket. Wanna hear more about specific juicy opportunities?",
+      "Saudi Arabia's real estate is booming! Growing population, exciting Vision 2030 plans, and prime cities like Riyadh are buzzing. Imagine steady rental income from apartments near universities or trendy neighborhoods. Plus, your property could grow in value year after year. Sounds tempting, right? Let's talk about specific areas and how you can make this happen!",
+      "Saudi Arabia's real estate market presents a compelling opportunity for astute investors. Vision 2030's transformative plans are fueling economic diversification, attracting a growing population, and driving significant infrastructure development. This creates a perfect storm for strong, sustained real estate growth in key cities like Riyadh, Jeddah, and Dammam. Do you need more information",
+      "Absolutely! Listen, Saudi Arabia's real estate is about to boom. Vision 2030 is turbocharging the economy, attracting millions more people by 2030, and the government's rolling out the welcome mat for investors like you. Imagine snagging a rental property in a bustling city like Riyadh, with young professionals and families clamoring for a place to call home. You could be earning steady rent while your property keeps growing in value - 13-27% a year"
+      ]
+    },
+
+    {
+      "tag": "investment_saudi_arabia_detail",
+      "patterns": [
+        "More details on the investment in saudi_arabia",
+        "I need more details on how to invest in saudi_arabia",
+        "More details,please"
+      ],
+      "responses": ["Feeling the Saudi real estate buzz? Let's imagine you snag a hot apartment in Riyadh for 220k SAR. Hold onto it for 5 years  Vision 2030 magic could bump its value up to 250k-280k SAR! Not just that, you could be raking in 11k-17k SAR per year in sweet rental income. Sounds dreamy, right? . Our team can you help you with that",
+      "Saudi Arabia's real estate is booming! Growing population, exciting Vision 2030 plans, and prime cities like Riyadh are buzzing. Imagine steady rental income from apartments near universities or trendy neighborhoods. Plus, your property could grow in value year after year. Sounds tempting, right? Let's talk about specific areas and how you can make this happen!",
+      "Saudi Arabia's real estate market presents a compelling opportunity for astute investors. Vision 2030's transformative plans are fueling economic diversification, attracting a growing population, and driving significant infrastructure development. This creates a perfect storm for strong, sustained real estate growth in key cities like Riyadh, Jeddah, and Dammam. Do you need more information",
+      "Absolutely! Listen, Saudi Arabia's real estate is about to boom. Vision 2030 is turbocharging the economy, attracting millions more people by 2030, and the government's rolling out the welcome mat for investors like you. Imagine snagging a rental property in a bustling city like Riyadh, with young professionals and families clamoring for a place to call home. You could be earning steady rent while your property keeps growing in value - 13-27% a year"
+      ]
+    },
+
+    {
+      "tag": "real_estate_budget",
+      "patterns": [
+        "I have a budget with 100$,how much can I reach in 5 years ",
+        "My budget is around 100k$,what will be myrofit in 5 years",
+        "With a 100k$ budget ,how much can I have after 5 years"
+      ],
+      "responses": [
+        "Absolutely, let's crunch some numbers! If you invest $100,000 in Saudi Arabia real estate, anticipate potential returns in 5 years: Property appreciation of $50,000 to $75,000 and rental income of $40,000 to $60,000 ",
+        "Feeling adventurous? Investing in a burgeoning Saudi Arabian district could unlock higher potential returns for your $100,000. Anticipate property appreciation of $60,000 to $90,000 alongside annual rental income of $35,000 to $50,000 in 5 years. However, remember that rapidly developing areas might carry higher vacancy risks and market fluctuations. This option suits risk-tolerant investors seeking high-growth potential.",
+        "To mitigate risk and optimize returns, consider diversifying your $100,000 across different property types and locations. This could involve a mix of apartments in developed areas for steady income, a townhouse in a developing area for higher growth potential, and a smaller investment in a REIT for broader market exposure. This option offers a balanced approach for risk-averse investors seeking long-term stability and growth",
+        "Absolutely, let's dive into the possibilities! Imagine investing $100,000 in a strategic location within Saudi Arabia's booming real estate market. In 5 years, you could potentially see substantial property appreciation of $70,000 to $100,000. While rental income might be slightly lower at $30,000 to $45,000, this option prioritizes long-term value growth, ideal for investors seeking capital gains through asset appreciation"
+        
+        
+        
+      ]
+    },
+    
+
+
+
+
+
+
+
+
+   
+    {
+      "tag": "risky_investment",
+      "patterns": [
+        "risky",
+        "I want a fast return profit",
+        "I'm willing to take on more risk for higher returns",
+        "I'm interested in high-potential investments"
+      ],
+      "responses": [
+        "Cryptocurrencies can offer high potential returns, but come with significant risks. Would you like to learn more about them?",
+        "Do you have a knowledge on the term Cryptocurrencies?,let me tell you more about it just in case."
+
+      ]
+    },
+    {
+      "tag": "crypto_info",
+      "patterns": [
+        "Yes,Tell me more about crypto investments",
+        "How does cryptocurrency investing work?",
+        "What are the risks and benefits of crypto?"
+      ],
+      "responses": [
+        "Ready to dive into the world of crypto? Here's a quick tour:\n- Cryptocurrencies are digital currencies like Bitcoin and Ethereum, operating on decentralized networks.\n- They're not controlled by governments or banks, making them potentially more secure and private.\n- You can buy, sell, or trade them on crypto exchanges 24/7.\n- Bitcoin is the original and most well-known, often seen as a store of value.\n- Ethereum is a popular platform for building decentralized apps and smart contracts.\n\nInterested in learning more? I can share details on how it works, risks, benefits, and strategies. Just ask!",
+        "Crypto's like a wild frontier, full of potential and risks. Here's your guide to exploring it:\n- Imagine a world where money is digital, borderless, and controlled by its users. That's crypto!\n- Bitcoin, the first to arrive, is like digital gold – scarce and sought-after.\n- Ethereum, a multi-purpose network, hosts innovative projects and digital marketplaces.\n- But remember, crypto prices can fluctuate wildly, and scams are out there.\n- Do your research, invest cautiously, and think long-term to navigate this exciting space.",
+        "Crypto investing  a journey into a new financial landscape. Here's your compass:\n- Buy and sell crypto on exchanges, like buying stocks on a stock market.\n- Store your crypto securely in digital wallets, protecting your digital assets.\n- Research different cryptocurrencies to find projects that align with your interests.\n- Consider investing strategies like HODLing (holding long-term) or trading for potential gains.\n- Bitcoin and Ethereum are the big names, but there's a universe of other crypto options to explore.\n- Remember, risks and rewards go hand-in-hand. Knowledge is your superpower in this uncharted territory."
+      ]
+    },
+    {
+      "tag": "risky_investment_profit",
+      "patterns": [
+        "If I have 30k $ ,how much can I make in a year",
+        "How much can I gain in a year with 30 000 $ "
+        
+      ],
+      "responses": [
+        "Certainly! Here's an overview of potential income after a year with a $30,000 investment in various cryptocurrencies:\nBitcoin:\nOptimistic: $60,000 - $90,000 (Double/Triple your investment!)\nRealistic: $40,000 - $55,000 (33%-83% Growth)\n\nEthereum:\nOptimistic: $60,000 - $90,000 (Matching Bitcoin's high potential)\nRealistic: $45,000 - $60,000 (50%-100% Growth)\n\nBNB (Binance Coin):\nOptimistic: $60,000 - $90,000 (Riding the Binance ecosystem wave)\nRealistic: $45,000 - $60,000 (Similar growth trajectory as Ethereum)\n\nUSDT (Tether):\nUnique: Stablecoin aiming for $1 value, less volatility but also lower potential gains.\nAdditional income: $1,800 - $3,600 through lending/staking programs (6%-12% annual interest).\n"
+    
+  ]
+    }
+
+  
+  ]
+}
